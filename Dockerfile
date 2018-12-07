@@ -1,4 +1,4 @@
-FROM rocker/r-ver:3.5.1
+FROM rocker/tidyverse
 LABEL maintainer="root"
 RUN export DEBIAN_FRONTEND=noninteractive; apt-get -y update \
   && apt-get install -y git-core \
